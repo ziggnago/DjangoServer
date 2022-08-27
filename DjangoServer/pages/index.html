@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1 style="color: #fff">Hello World! {{name}}</h1>
+
+<form action="add">
+    Coloque o primeiro número: <input type="text" name="num1"><br>
+    Coloque o segundo número: <input type="text" name="num2"><br>
+    <input type="submit">
+
+    resultado de {{valor_1}} e {{valor_2}} é igual a {{resultado}}
+</form>
+{% endblock %}
